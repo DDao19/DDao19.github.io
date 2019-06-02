@@ -1,0 +1,31 @@
+body, html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  color: white;
+  background-image: url(images/bunny_senpai.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container {
+  text-align: center;
+  text-shadow: 4px 4px 5px grey;
+  margin-top: 20px;
+}
+h1 {
+  letter-spacing: 10px;
+}
+.btn-primary {
+  border-radius: 20px;
+  background-color: #3F5E96;
+  border-color: #25498A;
+  margin-top: 250px;
+  transition: all .2s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #627DAF;
+  transform: scale(1.1);
+}
